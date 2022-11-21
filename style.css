@@ -9,41 +9,4 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100vh; 
-}
-
-.container {
-  /* display: flex; */
-  margin: auto;
-  width: 80%;
-  display: grid;
-  grid-template-columns: 1fr 2fr; 
-  height: 100%;
-}
-
-.container .left {
-  background: url("./img/dog.jpeg") no-repeat center center/cover;
-  height: 100%; 
-}
-
-.container .right {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  flex: 1; 
-}
-
-.exhortation, .button-container {
-  background: #f4f4f4;
-}
-
-.container .right .form-container form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.button-container {
-  width: 100%;
-}
 
