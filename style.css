@@ -9,4 +9,36 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+  background: #333;
+}
 
+.container {
+  width: 60%;
+  margin: auto;
+  background: #fff;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1.25fr 2fr;
+}
+
+.container .left {
+  background: url("./img/dog.jpeg") no-repeat center center/cover;
+  background-position: 10% 0%;
+  height: 100%;
+}
+
+.container .right .exhortation,
+.container .right .submit {
+  background: #f4f4f4;
+}
+
+.container .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .right > * {
+  flex: 1;
+}
