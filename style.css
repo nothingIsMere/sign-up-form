@@ -42,3 +42,20 @@ body {
 .container .right > * {
   flex: 1;
 }
+
+.container form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.container form .form-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.container form .form-section input {
+  width: 70%;
+}
+
