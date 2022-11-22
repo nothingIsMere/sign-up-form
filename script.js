@@ -5,5 +5,7 @@ let createAcctBtn = document.getElementById("create-acct");
 createAcctBtn.addEventListener("click", () => {
   if(pwd.value != pwdConfirm.value) {
     alert("Passwords do not match");
+    // pwd.classList.add("invalid");
+    // pwdConfirm.classList.add("invalid"); 
   }
 })
