@@ -13,6 +13,8 @@ body {
   height: 100vh;
   /* background: #333; */
   background: #414824;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6rem;
 }
 
 .container {
@@ -35,6 +37,15 @@ body {
   background: #f4f4f4;
 }
 
+.container .right .exhortation {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 175px 160px 0 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .container .right {
   display: flex;
   flex-direction: column;
@@ -47,11 +58,15 @@ body {
 .container .right form {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 85%;
 }
 
-.container .right .form-container,
+.container .right .form-container {
+  padding: 25px 0 0 40px;
+}
+
 .container .right .submit {
-  padding: 25px 0 0 25px;
+  padding: 15px 0 0 25px;
 }
 
 .container .right .submit button {
@@ -64,6 +79,11 @@ body {
   color: white;
   border: none;
   border-radius: 5px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .container .right .submit > p {
@@ -80,9 +100,29 @@ body {
   gap: 5px;
 }
 
+.container form .form-section label {
+  font-size: .8rem;
+}
+
 .container form .form-section input {
-  width: 70%;
+  width: 80%;
   height: 1.7rem;
   margin-bottom: 30px;
+  border: #999 solid 1px;
+  border-radius: 3px;
+}
+
+.submit a {
+  color:#414824;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.submit p {
+  margin-top: 25px;
+}
+
+.form-container > p {
+  font-size: 1.5rem;
 }
 
