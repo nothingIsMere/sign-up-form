@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ODIN | Sign up</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <div class="container">
@@ -52,7 +53,7 @@
   
           <div class="form-section">
             <label for="pwd">PASSWORD</label>
-            <input type="password" id="pwd" name="user-pwd">
+            <input type="password" id="pwd" name="user-pwd" minlength="8">
           </div>
   
           <div class="form-section">
@@ -64,7 +65,7 @@
       </div>
 
       <div class="submit">
-        <button type="submit" form="form">Create Account</button>
+        <button type="submit" form="form" id="create-acct">Create Account</button>
         <p>Already have an account? <a href="#">Log in.</a></p>
       </div>
     
