@@ -126,7 +126,9 @@ body {
   font-size: 1.5rem;
 }
 
-.container .right .form-container .form .form-section .invalid {
-  border: red solid 1px;
+.invalid {
+  background: red;
 }
+
+
 
